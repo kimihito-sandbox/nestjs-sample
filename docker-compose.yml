@@ -2,8 +2,6 @@ version: '3'
 services:
   app:
     build: .
-    tty: true
-    working_dir: /home/node/app
     user: node
     volumes:
       - .:/home/node/app
